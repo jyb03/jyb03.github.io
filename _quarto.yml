@@ -1,0 +1,68 @@
+project:
+  type: website
+  output-dir: docs
+  preview:
+    port: 4444
+    browser: true
+  render:
+    - index.qmd
+    - publications.qmd
+    - CV.qmd
+
+execute:
+  freeze: auto
+  cache: true
+
+website:
+  title: "Yubo Jia"
+  favicon: images/site-logo.png
+  open-graph: true
+  twitter-card: true
+  site-url: https://jyb03.github.io/
+
+  # ✅ 高级搜索选项放在这里
+  search:
+    location: navbar
+    type: overlay   # 覆盖式搜索
+
+  page-footer:
+    left: |
+      © {{< now year >}} Yubo Jia · <a href="mailto:jyb01@nwafu.edu.cn">jyb01@nwafu.edu.cn</a><br>
+      <a href="https://scholar.google.com/citations?user=Fx-O06kAAAAJ">Google Scholar</a> ·
+      <a href="https://orcid.org/0009-0003-0851-7565">ORCID</a> ·
+      <a href="https://github.com/JiaYubo-nwafu">GitHub</a>
+    right: |
+      Made with <a href="https://quarto.org/">Quarto</a><br>
+      Last updated: {{< modified "%Y-%m-%d" >}}
+
+  navbar:
+    title: "At the Convergence of Hydrology & AI"
+    pinned: true
+    collapse: true
+    background: "#FFE4E6"
+    foreground: "#7F1D1D"
+    right:
+      - text: "Home"
+        href: index.qmd
+      - text: "Publications"
+        href: publications.qmd
+      - text: "CV"
+        href: CV.qmd
+
+format:
+  html:
+    theme:
+      light: [cosmo, styles.scss]
+      dark:  [darkly, styles-dark.scss]
+    toc: true
+    toc-location: right
+    toc-depth: 3
+    code-copy: true
+    code-overflow: wrap
+    anchor-links: true
+    link-external-newwindow: true
+    link-external-icon: true
+    page-layout: article
+
+metadata:
+  page-color: "#FECDD3"

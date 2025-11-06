@@ -1,0 +1,41 @@
+---
+title: "Yubo Jia"
+image: images/jiayubo_2025.jpg   # ensure the extension matches your file name
+about:
+  id: hero-heading
+  template: trestles
+  image-width: 12em
+  image-shape: round
+  links:
+    - icon: envelope
+      text: jyb01@nwafu.edu.cn
+      href: mailto:jyb01@nwafu.edu.cn
+
+    - icon: github
+      text: JiaYubo-nwafu
+      href: https://github.com/JiaYubo-nwafu
+
+    - icon: ai-google-scholar   # if Academicons isn’t enabled, use `book`
+      text: Google Scholar
+      href: https://scholar.google.com/citations?user=Fx-O06kAAAAJ
+
+    - icon: ai-orcid            # if Academicons isn’t enabled, use `fingerprint`
+      text: ORCID
+      href: https://orcid.org/0009-0003-0851-7565
+---
+
+```{=html}
+<style>
+  /* light-blue keyword accent used only inside the hero section */
+  #hero-heading .kw { color: #0ea5e9; font-weight: 600; }
+</style>
+::: {#hero-heading .lead}
+I’m Yubo Jia, a Master’s student at Northwest A&F University (NWAFU) from Yulin, Shaanxi, China. I expect to graduate in 2026 and plan to pursue a Ph.D. in Computer Science and Technology at Northwestern Polytechnical University (NPU).
+
+My research centers on the [AI–hydrology intersection]{.kw}, with emphasis on [time-series modeling]{.kw}, [uncertainty quantification]{.kw}, and [physics-guided deep learning]{.kw} for hydrologic forecasting and water resources management.
+:::
+
+Background
+B.Eng., Hydrology & Water Resources Engineering — Northwest A&F University, Sep 2019 – Jun 2023
+
+M.Eng., Hydrology & Water Resources Engineering (entrance-exam exemption) — Northwest A&F University, Sep 2023 – Present

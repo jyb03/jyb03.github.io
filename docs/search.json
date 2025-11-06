@@ -1,0 +1,72 @@
+[
+  {
+    "objectID": "CV.html",
+    "href": "CV.html",
+    "title": "Curriculum Vitae",
+    "section": "",
+    "text": "Email: jyb01@nwafu.edu.cn\nPhone: +86 199-2914-9257 (CN)\n\n\n\nMaster’s student at NWAFU working at the interface of deep learning and hydrology. Focused on time-series forecasting, streamflow modeling, and physics-guided (physics-informed) deep learning for hydrologic prediction and decision support.\n\n\n\n\n\nM.Eng., Hydrology & Water Resources Engineering — Northwest A&F University (NWAFU)\nSep 2023 – Present · Admitted by recommendation (entrance-exam exemption)\nB.Eng., Hydrology & Water Resources Engineering — Northwest A&F University (NWAFU)\nSep 2019 – Jun 2023\n\n\n\n\n\n\nDeep learning for hydrologic forecasting\n\nTime-series modeling and uncertainty quantification\n\nStreamflow simulation and evaluation\n\nPhysics-guided/physics-informed deep learning\n\n\n\n\n\n\nNational Postgraduate Scholarship, 2025\n\nOutstanding Graduation Thesis Award (University Level, Top 5%), 2023\n\n\n\n\n\n\nReviewer, Expert Systems with Applications (Elsevier)\n\n\n\n\n\n\nDeep Learning (PyTorch): model development for time-series and hydrologic tasks; modular training, rigorous evaluation, and reproducible pipelines\n\nLinux & HPC: proficient with Linux command line and workflow automation; experience processing large datasets on supercomputing/cluster environments"
+  },
+  {
+    "objectID": "CV.html#profile",
+    "href": "CV.html#profile",
+    "title": "Curriculum Vitae",
+    "section": "",
+    "text": "Master’s student at NWAFU working at the interface of deep learning and hydrology. Focused on time-series forecasting, streamflow modeling, and physics-guided (physics-informed) deep learning for hydrologic prediction and decision support."
+  },
+  {
+    "objectID": "CV.html#education",
+    "href": "CV.html#education",
+    "title": "Curriculum Vitae",
+    "section": "",
+    "text": "M.Eng., Hydrology & Water Resources Engineering — Northwest A&F University (NWAFU)\nSep 2023 – Present · Admitted by recommendation (entrance-exam exemption)\nB.Eng., Hydrology & Water Resources Engineering — Northwest A&F University (NWAFU)\nSep 2019 – Jun 2023"
+  },
+  {
+    "objectID": "CV.html#research-interests",
+    "href": "CV.html#research-interests",
+    "title": "Curriculum Vitae",
+    "section": "",
+    "text": "Deep learning for hydrologic forecasting\n\nTime-series modeling and uncertainty quantification\n\nStreamflow simulation and evaluation\n\nPhysics-guided/physics-informed deep learning"
+  },
+  {
+    "objectID": "CV.html#honors-awards",
+    "href": "CV.html#honors-awards",
+    "title": "Curriculum Vitae",
+    "section": "",
+    "text": "National Postgraduate Scholarship, 2025\n\nOutstanding Graduation Thesis Award (University Level, Top 5%), 2023"
+  },
+  {
+    "objectID": "CV.html#academic-service",
+    "href": "CV.html#academic-service",
+    "title": "Curriculum Vitae",
+    "section": "",
+    "text": "Reviewer, Expert Systems with Applications (Elsevier)"
+  },
+  {
+    "objectID": "CV.html#research-skills",
+    "href": "CV.html#research-skills",
+    "title": "Curriculum Vitae",
+    "section": "",
+    "text": "Deep Learning (PyTorch): model development for time-series and hydrologic tasks; modular training, rigorous evaluation, and reproducible pipelines\n\nLinux & HPC: proficient with Linux command line and workflow automation; experience processing large datasets on supercomputing/cluster environments"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Yubo Jia",
+    "section": "",
+    "text": "jyb01@nwafu.edu.cn\n  \n  \n    \n     JiaYubo-nwafu\n  \n  \n    \n     Google Scholar\n  \n  \n    \n     ORCID\n  \n\n  \n  \nI’m Yubo Jia, a Master’s student at Northwest A&F University (NWAFU) from Yulin, Shaanxi, China. I expect to graduate in 2026 and plan to pursue a Ph.D. in Computer Science and Technology at Northwestern Polytechnical University (NPU).\nMy research centers on the AI–hydrology intersection, with emphasis on time-series modeling, uncertainty quantification, and physics-guided deep learning for hydrologic forecasting and water resources management.\n\n\n\nBackground B.Eng., Hydrology & Water Resources Engineering — Northwest A&F University, Sep 2019 – Jun 2023\nM.Eng., Hydrology & Water Resources Engineering (entrance-exam exemption) — Northwest A&F University, Sep 2023 – Present"
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "NoteLinks\n\n\n\n\nGoogle Scholar: https://scholar.google.com/citations?user=Fx-O06kAAAAJ\nORCID: https://orcid.org/0009-0003-0851-7565"
+  },
+  {
+    "objectID": "publications.html#journal-articles",
+    "href": "publications.html#journal-articles",
+    "title": "Publications",
+    "section": "Journal Articles",
+    "text": "Journal Articles\n\nJia, Y. B., Su, X. L., Zhang, T., Wu, H. J., Jia, Y. Y., & Wang, Q. Y. (2025). Enhancing Streamflow Forecasting Using an LSTM Hybrid Model with Lightweight Frequency-Domain Feature Learning. Expert Systems with Applications. https://doi.org/10.1016/j.eswa.2025.129418\nAffiliations: Northwest A&F University (NWAFU); China Three Gorges University (CTGU); Northwestern Polytechnical University (NPU). Contribution: Proposed a lightweight and efficient frequency-domain multilayer perceptron (FDMLP) to capture cross-feature dependencies; combined with LSTM, it enables joint modeling across feature and temporal dimensions.\nJia, Y. B., Su, X. L., Singh, V. P., Zhao, B. N., Zhang, T., Chu, J. D., & Wu, H. J. (In revision, 2nd round). A Novel Hybrid Predictive Model Based on Mixture Density Networks with a Weighted Conformal Inference Strategy for Runoff Interval Prediction Across Australia. Water Resources Research.\nAffiliations: Northwest A&F University (NWAFU); Texas A&M University (TAMU); China Three Gorges University (CTGU).\nJia, Y. B., Su, X. L., Wu, H. J., Yan, H. W., & Zhu, X. Y. (In press). Enhancing Streamflow Prediction Using Cutting-edge Deep Learning Models and Seasonal-Trend Decomposition. Water Resources Management.\nAffiliations: Northwest A&F University (NWAFU). Contribution: Three emerging AI-based time-series models (FITS, FGN, PatchTST) were pioneered in runoff prediction and systematically evaluated in conjunction with four seasonal-trend decomposition (STD) methods, providing new insights for optimizing model-preprocessing synergy."
+  }
+]

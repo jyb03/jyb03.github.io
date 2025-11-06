@@ -1,0 +1,50 @@
+---
+title: "Curriculum Vitae"
+format:
+  html: default
+toc: false
+---
+
+# Yubo Jia
+
+**Email:** jyb01@nwafu.edu.cn 
+
+**Phone:** +86 199-2914-9257 (CN)
+
+---
+
+## Profile
+Master's student at NWAFU working at the interface of **deep learning and hydrology**. Focused on time-series forecasting, streamflow modeling, and **physics-guided (physics-informed) deep learning** for hydrologic prediction and decision support.
+
+---
+
+## Education
+- **M.Eng., Hydrology & Water Resources Engineering** — Northwest A&F University (NWAFU)  
+  *Sep 2023 – Present* · *Admitted by recommendation (entrance-exam exemption)*
+- **B.Eng., Hydrology & Water Resources Engineering** — Northwest A&F University (NWAFU)  
+  *Sep 2019 – Jun 2023*
+
+---
+
+## Research Interests
+- Deep learning for hydrologic forecasting  
+- Time-series modeling and uncertainty quantification  
+- Streamflow simulation and evaluation  
+- Physics-guided/physics-informed deep learning
+
+---
+
+## Honors & Awards
+- **National Postgraduate Scholarship**, 2025  
+- **Outstanding Graduation Thesis Award (University Level, Top 5%)**, 2023
+
+---
+
+## Academic Service
+- **Reviewer**, *Expert Systems with Applications* (Elsevier)
+
+---
+
+## Research Skills
+- **Deep Learning (PyTorch):** model development for time-series and hydrologic tasks; modular training, rigorous evaluation, and reproducible pipelines  
+- **Linux & HPC:** proficient with Linux command line and workflow automation; experience processing large datasets on supercomputing/cluster environments
