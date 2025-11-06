@@ -30,13 +30,13 @@ website:
       © {{< now year >}} Yubo Jia · <a href="mailto:jyb01@nwafu.edu.cn">jyb01@nwafu.edu.cn</a><br>
       <a href="https://scholar.google.com/citations?user=Fx-O06kAAAAJ">Google Scholar</a> ·
       <a href="https://orcid.org/0009-0003-0851-7565">ORCID</a> ·
-      <a href="https://github.com/JiaYubo-nwafu">GitHub</a>
+      <a href="https://github.com/jyb03">GitHub</a>
     right: |
       Made with <a href="https://quarto.org/">Quarto</a><br>
       Last updated: {{< modified "%Y-%m-%d" >}}
 
   navbar:
-    title: "At the Convergence of Hydrology & AI"
+    title: "Yubo Jia | Hydrology × AI"
     pinned: true
     collapse: true
     background: "#FFE4E6"

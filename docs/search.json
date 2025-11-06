@@ -4,14 +4,14 @@
     "href": "CV.html",
     "title": "Curriculum Vitae",
     "section": "",
-    "text": "Email: jyb01@nwafu.edu.cn\nPhone: +86 199-2914-9257 (CN)\n\n\n\nMaster’s student at NWAFU working at the interface of deep learning and hydrology. Focused on time-series forecasting, streamflow modeling, and physics-guided (physics-informed) deep learning for hydrologic prediction and decision support.\n\n\n\n\n\nM.Eng., Hydrology & Water Resources Engineering — Northwest A&F University (NWAFU)\nSep 2023 – Present · Admitted by recommendation (entrance-exam exemption)\nB.Eng., Hydrology & Water Resources Engineering — Northwest A&F University (NWAFU)\nSep 2019 – Jun 2023\n\n\n\n\n\n\nDeep learning for hydrologic forecasting\n\nTime-series modeling and uncertainty quantification\n\nStreamflow simulation and evaluation\n\nPhysics-guided/physics-informed deep learning\n\n\n\n\n\n\nNational Postgraduate Scholarship, 2025\n\nOutstanding Graduation Thesis Award (University Level, Top 5%), 2023\n\n\n\n\n\n\nReviewer, Expert Systems with Applications (Elsevier)\n\n\n\n\n\n\nDeep Learning (PyTorch): model development for time-series and hydrologic tasks; modular training, rigorous evaluation, and reproducible pipelines\n\nLinux & HPC: proficient with Linux command line and workflow automation; experience processing large datasets on supercomputing/cluster environments"
+    "text": "Email: jyb01@nwafu.edu.cn\nPhone: +86 199-2914-9257 (CN)\n\n\n\nI’m a master’s student at NWAFU working at the interface of AI and hydrology. I focus on time-series forecasting and streamflow modeling, and I develop physics-guided (physics-informed) deep learning methods for hydrologic prediction and decision support.\n\n\n\n\n\nM.Eng., Hydrology & Water Resources Engineering — Northwest A&F University (NWAFU)\nSep 2023 – Present · Admitted by recommendation (entrance-exam exemption)\nB.Eng., Hydrology & Water Resources Engineering — Northwest A&F University (NWAFU)\nSep 2019 – Jun 2023\n\n\n\n\n\n\nDeep learning for hydrologic forecasting\n\nTime-series modeling and uncertainty quantification\n\nStreamflow simulation and evaluation\n\nPhysics-guided/physics-informed deep learning\n\n\n\n\n\n\n🥳 National Postgraduate Scholarship, 2025\n🎉 Outstanding Graduation Thesis Award (University Level, Top 5%), 2023\n\n\n\n\n\n\nReviewer, Expert Systems with Applications (Elsevier)\n\n\n\n\n\n\nDeep Learning (PyTorch): model development for time-series and hydrologic tasks; modular training, rigorous evaluation, and reproducible pipelines\n\nLinux & HPC: proficient with Linux command line and workflow automation; experience processing large datasets on supercomputing/cluster environments"
   },
   {
     "objectID": "CV.html#profile",
     "href": "CV.html#profile",
     "title": "Curriculum Vitae",
     "section": "",
-    "text": "Master’s student at NWAFU working at the interface of deep learning and hydrology. Focused on time-series forecasting, streamflow modeling, and physics-guided (physics-informed) deep learning for hydrologic prediction and decision support."
+    "text": "I’m a master’s student at NWAFU working at the interface of AI and hydrology. I focus on time-series forecasting and streamflow modeling, and I develop physics-guided (physics-informed) deep learning methods for hydrologic prediction and decision support."
   },
   {
     "objectID": "CV.html#education",
@@ -32,7 +32,7 @@
     "href": "CV.html#honors-awards",
     "title": "Curriculum Vitae",
     "section": "",
-    "text": "National Postgraduate Scholarship, 2025\n\nOutstanding Graduation Thesis Award (University Level, Top 5%), 2023"
+    "text": "🥳 National Postgraduate Scholarship, 2025\n🎉 Outstanding Graduation Thesis Award (University Level, Top 5%), 2023"
   },
   {
     "objectID": "CV.html#academic-service",
@@ -53,7 +53,7 @@
     "href": "index.html",
     "title": "Yubo Jia",
     "section": "",
-    "text": "jyb01@nwafu.edu.cn\n  \n  \n    \n     JiaYubo-nwafu\n  \n  \n    \n     Google Scholar\n  \n  \n    \n     ORCID\n  \n\n  \n  \nI’m Yubo Jia, a Master’s student at Northwest A&F University (NWAFU) from Yulin, Shaanxi, China. I expect to graduate in 2026 and plan to pursue a Ph.D. in Computer Science and Technology at Northwestern Polytechnical University (NPU).\nMy research centers on the AI–hydrology intersection, with emphasis on time-series modeling, uncertainty quantification, and physics-guided deep learning for hydrologic forecasting and water resources management.\n\n\n\nBackground B.Eng., Hydrology & Water Resources Engineering — Northwest A&F University, Sep 2019 – Jun 2023\nM.Eng., Hydrology & Water Resources Engineering (entrance-exam exemption) — Northwest A&F University, Sep 2023 – Present"
+    "text": "jyb01@nwafu.edu.cn\n  \n  \n    \n     jyb-github\n  \n  \n    \n     Google Scholar\n  \n  \n    \n     ORCID\n  \n\n  \n  \n\nI’m Yubo Jia, a Master’s student in Hydrology & Water Resources Engineering at Northwest A&F University (NWAFU) in Yangling, Shaanxi. I also completed my B.Eng. at NWAFU. Originally from Yulin, Shaanxi, China, I expect to graduate in 2026 and plan to pursue a Ph.D. in Computer Science and Technology at Northwestern Polytechnical University (NPU) in Xi’an.\n\n\nMy research centers on the AI–hydrology intersection, especially time-series modeling for rainfall–runoff and groundwater, physics-guided deep learning, and uncertainty quantification for decision-ready hydrologic forecasting and water resources management.\n\n\n\nBuild generalizable sequence models that learn across many basins while retaining local behavior.\n\n\nEmbed physical constraints and process cues into neural networks to improve robustness and interpretability.\n\n\nDeliver calibrated prediction intervals and risk-aware metrics to support operations.\n\n\n\nI value open science and reproducibility—notes and code are shared on GitHub, and I’m always glad to collaborate across hydrology, computer science, and applied-statistics communities."
   },
   {
     "objectID": "publications.html",

@@ -1,41 +1,77 @@
 ---
 title: "Yubo Jia"
-image: images/jiayubo_2025.jpg   # ensure the extension matches your file name
+image: images/jiayubo_2025.jpg
+image-alt: "Portrait of Yubo Jia"
 about:
-  id: hero-heading
+  id: hero
   template: trestles
-  image-width: 12em
+  image-width: 7em
   image-shape: round
   links:
     - icon: envelope
       text: jyb01@nwafu.edu.cn
       href: mailto:jyb01@nwafu.edu.cn
-
     - icon: github
-      text: JiaYubo-nwafu
-      href: https://github.com/JiaYubo-nwafu
-
-    - icon: ai-google-scholar   # if Academicons isn’t enabled, use `book`
+      text: jyb-github
+      href: https://github.com/jyb03
+    - icon: book
       text: Google Scholar
       href: https://scholar.google.com/citations?user=Fx-O06kAAAAJ
-
-    - icon: ai-orcid            # if Academicons isn’t enabled, use `fingerprint`
+    - icon: fingerprint
       text: ORCID
       href: https://orcid.org/0009-0003-0851-7565
 ---
 
 ```{=html}
 <style>
-  /* light-blue keyword accent used only inside the hero section */
-  #hero-heading .kw { color: #0ea5e9; font-weight: 600; }
+  :root { --accent: #0ea5e9; }
+
+  /* 关键词着色 */
+  #hero .kw { color: var(--accent); font-weight: 500; }
+  :root { --accent:#0ea5e9; --highlight:#e11d48; }   /* 新增 --highlight，一个更好看的红色 */
+  .kw-red { color: var(--highlight); font-weight: 500; }  /* 粗体 + 红色 */
+
+  /* 微调 trestles 左右栏比例 */
+  .about-entity   { flex-basis: 20% !important; flex-shrink: 0 !important; }
+  .about-contents { flex-basis: 80% !important; }
+
+  /* 段落与行距 */
+  #hero p { margin-bottom: .6rem; line-height: 1.65; }
+  #hero.lead { font-size: 1.06rem; }
+
+  /* 移动端响应式 */
+  @media (max-width: 768px) {
+    .about-entity, .about-contents { flex-basis: 100% !important; }
+    #hero.lead { font-size: 1rem; }
+  }
+
+  /* About 链接样式（略微加高） */
+  .about-links{
+    display:flex; flex-wrap:wrap; gap:.5rem;
+  }
+  .about-links .about-link{
+    display:inline-flex; align-items:center; gap:.4rem;
+    padding:.45rem .75rem;
+    line-height:1;
+    min-height:2.4rem;   /* 原 2.1rem → 2.4rem */
+    border-radius:.5rem;
+    white-space:nowrap;
+    min-width:0;
+  }
+  .about-links .about-link .about-link-text{
+    overflow:hidden; text-overflow:ellipsis;
+  }
+  @media (max-width: 480px){
+    .about-links .about-link{
+      font-size:.95rem;
+      min-height:2.25rem; /* 原 2.1rem → 2.25rem */
+      padding:.4rem .65rem;
+    }
+  }
 </style>
-::: {#hero-heading .lead}
-I’m Yubo Jia, a Master’s student at Northwest A&F University (NWAFU) from Yulin, Shaanxi, China. I expect to graduate in 2026 and plan to pursue a Ph.D. in Computer Science and Technology at Northwestern Polytechnical University (NPU).
-
-My research centers on the [AI–hydrology intersection]{.kw}, with emphasis on [time-series modeling]{.kw}, [uncertainty quantification]{.kw}, and [physics-guided deep learning]{.kw} for hydrologic forecasting and water resources management.
-:::
-
-Background
-B.Eng., Hydrology & Water Resources Engineering — Northwest A&F University, Sep 2019 – Jun 2023
-
-M.Eng., Hydrology & Water Resources Engineering (entrance-exam exemption) — Northwest A&F University, Sep 2023 – Present
+<div id="hero" class="lead"> <p>I'm Yubo Jia, a Master's student in <strong>Hydrology &amp; Water Resources Engineering</strong> at Northwest A&amp;F University (NWAFU) in Yangling, Shaanxi. I also completed my B.Eng. at NWAFU. Originally from Yulin, Shaanxi, China, I expect to graduate in 2026 and plan to pursue a Ph.D. in <strong>Computer Science and Technology</strong> at Northwestern Polytechnical University (NPU) in Xi’an.</p>
+<p>My research centers on the <span class="kw">AI–hydrology intersection</span>, especially <span class="kw">time-series modeling</span> for rainfall–runoff and groundwater, <span class="kw">physics-guided deep learning</span>, and <span class="kw">uncertainty quantification</span> for decision-ready hydrologic forecasting and water resources management.</p> <ul class="hero-points" style="margin:.5rem 0 0 1rem; padding-left:.4rem;"> <li style="margin:.25rem 0;">Build generalizable sequence models that learn across many basins while retaining local behavior.</li> <li style="margin:.25rem 0;">Embed physical constraints and process cues into neural networks to improve robustness and interpretability.</li> <li style="margin:.25rem 0;">Deliver calibrated prediction intervals and risk-aware metrics to support operations.</li> </ul> <p style="margin-top:.5rem;">
+  I value open science and reproducibility—notes and code are shared on GitHub, and I'm always glad to collaborate across
+  <span class="kw-red">hydrology</span>, <span class="kw-red">computer science</span>, and
+  <span class="kw-red">applied-statistics</span> communities.
+</p> </div>

@@ -14,7 +14,8 @@ toc: false
 ---
 
 ## Profile
-Master's student at NWAFU working at the interface of **deep learning and hydrology**. Focused on time-series forecasting, streamflow modeling, and **physics-guided (physics-informed) deep learning** for hydrologic prediction and decision support.
+I’m a master’s student at NWAFU working at the interface of **AI and hydrology**. I focus on time-series forecasting and streamflow modeling, and I develop physics-guided (physics-informed) deep learning methods for hydrologic prediction and decision support.
+
 
 ---
 
@@ -35,8 +36,8 @@ Master's student at NWAFU working at the interface of **deep learning and hydrol
 ---
 
 ## Honors & Awards
-- **National Postgraduate Scholarship**, 2025  
-- **Outstanding Graduation Thesis Award (University Level, Top 5%)**, 2023
+- 🥳 **National Postgraduate Scholarship**, 2025 
+- 🎉 **Outstanding Graduation Thesis Award (University Level, Top 5%)**, 2023
 
 ---
 

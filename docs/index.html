@@ -73,12 +73,12 @@ ul.task-list li input[type="checkbox"] {
 
 
 <meta property="og:title" content="Yubo Jia">
-<meta property="og:description" content="">
 <meta property="og:image" content="https://jyb03.github.io/images/jiayubo_2025.jpg">
 <meta property="og:site_name" content="Yubo Jia">
+<meta property="og:image:alt" content="Portrait of Yubo Jia">
 <meta name="twitter:title" content="Yubo Jia">
-<meta name="twitter:description" content="">
 <meta name="twitter:image" content="https://jyb03.github.io/images/jiayubo_2025.jpg">
+<meta name="twitter:image:alt" content="Portrait of Yubo Jia">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -254,7 +254,7 @@ ul.task-list li input[type="checkbox"] {
     <a href="./index.html" class="navbar-brand navbar-brand-logo">
     </a>
     <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">At the Convergence of Hydrology &amp; AI</span>
+    <span class="navbar-title">Yubo Jia | Hydrology × AI</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -296,13 +296,55 @@ ul.task-list li input[type="checkbox"] {
 
 
 <style>
-  /* light-blue keyword accent used only inside the hero section */
-  #hero-heading .kw { color: #0ea5e9; font-weight: 600; }
+  :root { --accent: #0ea5e9; }
+
+  /* 关键词着色 */
+  #hero .kw { color: var(--accent); font-weight: 500; }
+  :root { --accent:#0ea5e9; --highlight:#e11d48; }   /* 新增 --highlight，一个更好看的红色 */
+  .kw-red { color: var(--highlight); font-weight: 500; }  /* 粗体 + 红色 */
+
+  /* 微调 trestles 左右栏比例 */
+  .about-entity   { flex-basis: 20% !important; flex-shrink: 0 !important; }
+  .about-contents { flex-basis: 80% !important; }
+
+  /* 段落与行距 */
+  #hero p { margin-bottom: .6rem; line-height: 1.65; }
+  #hero.lead { font-size: 1.06rem; }
+
+  /* 移动端响应式 */
+  @media (max-width: 768px) {
+    .about-entity, .about-contents { flex-basis: 100% !important; }
+    #hero.lead { font-size: 1rem; }
+  }
+
+  /* About 链接样式（略微加高） */
+  .about-links{
+    display:flex; flex-wrap:wrap; gap:.5rem;
+  }
+  .about-links .about-link{
+    display:inline-flex; align-items:center; gap:.4rem;
+    padding:.45rem .75rem;
+    line-height:1;
+    min-height:2.4rem;   /* 原 2.1rem → 2.4rem */
+    border-radius:.5rem;
+    white-space:nowrap;
+    min-width:0;
+  }
+  .about-links .about-link .about-link-text{
+    overflow:hidden; text-overflow:ellipsis;
+  }
+  @media (max-width: 480px){
+    .about-links .about-link{
+      font-size:.95rem;
+      min-height:2.25rem; /* 原 2.1rem → 2.25rem */
+      padding:.4rem .65rem;
+    }
+  }
 </style>
 <div class="quarto-about-trestles">
   <div class="about-entity">
-    <img src="images/jiayubo_2025.jpg" class="about-image
-  round " style="height: 12em; width: 12em;">
+    <img src="images/jiayubo_2025.jpg" alt="Portrait of Yubo Jia" class="about-image
+  round " style="height: 7em; width: 7em;">
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">Yubo Jia</h1>
@@ -315,28 +357,44 @@ ul.task-list li input[type="checkbox"] {
     <i class="bi bi-envelope"></i>
      <span class="about-link-text">jyb01@nwafu.edu.cn</span>
   </a>
-  <a href="https://github.com/JiaYubo-nwafu" class="about-link" rel="" target="">
+  <a href="https://github.com/jyb03" class="about-link" rel="" target="">
     <i class="bi bi-github"></i>
-     <span class="about-link-text">JiaYubo-nwafu</span>
+     <span class="about-link-text">jyb-github</span>
   </a>
   <a href="https://scholar.google.com/citations?user=Fx-O06kAAAAJ" class="about-link" rel="" target="">
-    <i class="bi bi-ai-google-scholar"></i>
+    <i class="bi bi-book"></i>
      <span class="about-link-text">Google Scholar</span>
   </a>
   <a href="https://orcid.org/0009-0003-0851-7565" class="about-link" rel="" target="">
-    <i class="bi bi-ai-orcid"></i>
+    <i class="bi bi-fingerprint"></i>
      <span class="about-link-text">ORCID</span>
   </a>
 </div>
   </div>
-  <div class="about-contents"><div id="hero-heading" class="lead">
-<p>I’m Yubo Jia, a Master’s student at Northwest A&amp;F University (NWAFU) from Yulin, Shaanxi, China. I expect to graduate in 2026 and plan to pursue a Ph.D.&nbsp;in Computer Science and Technology at Northwestern Polytechnical University (NPU).</p>
-<p>My research centers on the <span class="kw">AI–hydrology intersection</span>, with emphasis on <span class="kw">time-series modeling</span>, <span class="kw">uncertainty quantification</span>, and <span class="kw">physics-guided deep learning</span> for hydrologic forecasting and water resources management.</p>
+  <div class="about-contents"><div id="hero" class="lead">
+<p>
+I’m Yubo Jia, a Master’s student in <strong>Hydrology &amp; Water Resources Engineering</strong> at Northwest A&amp;F University (NWAFU) in Yangling, Shaanxi. I also completed my B.Eng. at NWAFU. Originally from Yulin, Shaanxi, China, I expect to graduate in 2026 and plan to pursue a Ph.D.&nbsp;in <strong>Computer Science and Technology</strong> at Northwestern Polytechnical University (NPU) in Xi’an.
+</p>
+<p>
+My research centers on the <span class="kw">AI–hydrology intersection</span>, especially <span class="kw">time-series modeling</span> for rainfall–runoff and groundwater, <span class="kw">physics-guided deep learning</span>, and <span class="kw">uncertainty quantification</span> for decision-ready hydrologic forecasting and water resources management.
+</p>
+<ul class="hero-points" style="margin:.5rem 0 0 1rem; padding-left:.4rem;">
+<li style="margin:.25rem 0;">
+Build generalizable sequence models that learn across many basins while retaining local behavior.
+</li>
+<li style="margin:.25rem 0;">
+Embed physical constraints and process cues into neural networks to improve robustness and interpretability.
+</li>
+<li style="margin:.25rem 0;">
+Deliver calibrated prediction intervals and risk-aware metrics to support operations.
+</li>
+</ul>
+<p style="margin-top:.5rem;">
+I value open science and reproducibility—notes and code are shared on GitHub, and I’m always glad to collaborate across <span class="kw-red">hydrology</span>, <span class="kw-red">computer science</span>, and <span class="kw-red">applied-statistics</span> communities.
+</p>
 </div></div>
 </div>
 
-<p>Background B.Eng., Hydrology &amp; Water Resources Engineering — Northwest A&amp;F University, Sep 2019 – Jun 2023</p>
-<p>M.Eng., Hydrology &amp; Water Resources Engineering (entrance-exam exemption) — Northwest A&amp;F University, Sep 2023 – Present</p>
 
 
 
@@ -759,7 +817,7 @@ ul.task-list li input[type="checkbox"] {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p>© 2025 Yubo Jia · <a href="mailto:jyb01@nwafu.edu.cn">jyb01@nwafu.edu.cn</a><br> <a href="https://scholar.google.com/citations?user=Fx-O06kAAAAJ">Google Scholar</a> · <a href="https://orcid.org/0009-0003-0851-7565">ORCID</a> · <a href="https://github.com/JiaYubo-nwafu">GitHub</a></p>
+<p>© 2025 Yubo Jia · <a href="mailto:jyb01@nwafu.edu.cn">jyb01@nwafu.edu.cn</a><br> <a href="https://scholar.google.com/citations?user=Fx-O06kAAAAJ">Google Scholar</a> · <a href="https://orcid.org/0009-0003-0851-7565">ORCID</a> · <a href="https://github.com/jyb03">GitHub</a></p>
 </div>   
     <div class="nav-footer-center">
       &nbsp;
