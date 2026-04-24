@@ -13,17 +13,17 @@ editor: visual
 
 - **Jia, Y. B.**, Su, X. L., Zhang, T., Wu, H. J., Jia, Y. Y., & Wang, Q. Y. (2025).
   *Enhancing Streamflow Forecasting Using an LSTM Hybrid Model with Lightweight Frequency-Domain Feature Learning*.
-  <i>Expert Systems with Applications</i>. <https://doi.org/10.1016/j.eswa.2025.129418>  
+  <i>Expert Systems with Applications</i>, 297, 129418. <https://doi.org/10.1016/j.eswa.2025.129418>  
   <span style="color:#87CEFA">*Affiliations:* **Northwest A&F University (NWAFU)**; **China Three Gorges University (CTGU)**; **Northwestern Polytechnical University (NPU)**.</span><br>
   <small><strong>Contribution:</strong> Proposed a lightweight and efficient frequency-domain multilayer perceptron (FDMLP) to capture cross-feature dependencies; combined with LSTM, it enables joint modeling across feature and temporal dimensions.</small>
 
-- **Jia, Y. B.**, Su, X. L., Singh, V. P., Zhao, B. N., Zhang, T., Chu, J. D., & Wu, H. J. (<strong style="color:red">In revision, 2nd round</strong>).
+- **Jia, Y. B.**, Su, X. L., Singh, V. P., Zhao, B. N., Zhang, T., Chu, J. D., & Wu, H. J. (2026).
   *A Novel Hybrid Predictive Model Based on Mixture Density Networks with a Weighted Conformal Inference Strategy for Runoff Interval Prediction Across Australia*.
-  <i>Water Resources Research</i>.  
+  <i>Water Resources Research</i>, 62, e2024WR039807. <https://doi.org/10.1029/2024WR039807>  
   <span style="color:#87CEFA">*Affiliations:* **Northwest A&F University (NWAFU)**; **Texas A&M University (TAMU)**; **China Three Gorges University (CTGU)**.</span>
 
-- **Jia, Y. B.**, Su, X. L., Wu, H. J., Yan, H. W., & Zhu, X. Y. (<strong style="color:red">In press</strong>).
+- **Jia, Y. B.**, Su, X. L., Wu, H. J., Yan, H. W., & Zhu, X. Y. (2026).
   *Enhancing Streamflow Prediction Using Cutting-edge Deep Learning Models and Seasonal-Trend Decomposition*.
-  <i>Water Resources Management</i>.  
+  <i>Water Resources Management</i>, 40, 105. <https://doi.org/10.1007/s11269-025-04447-5>  
   <span style="color:#87CEFA">*Affiliations:* **Northwest A&F University (NWAFU)**.</span><br>
   <small><strong>Contribution:</strong> Three emerging AI-based time-series models (FITS, FGN, PatchTST) were pioneered in runoff prediction and systematically evaluated in conjunction with four seasonal-trend decomposition (STD) methods, providing new insights for optimizing model-preprocessing synergy.</small>
